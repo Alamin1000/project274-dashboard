@@ -101,12 +101,13 @@
           <!-- content-header -->
 
           <!-- content-wrapper -->
-          <div class="content__wrapper">
+          <div class="content__wrapper px-4 mx-3">
             <div class="sum-x-section">
               <div class="sum-x__title">
                 <h4>Overview</h4>
                 <h3>Alle registrierte Seiten</h3>
               </div>
+              <!-- sum-x -->
               <div class="sum-x__wrapper">
                 <div class="sum-x__item">
                   <div class="sum-x__item__top">
@@ -116,7 +117,7 @@
                     /></a>
                   </div>
                   <div class="sum-x__item__tc">
-                    <h2>22 von 135</h2>
+                    <h2>22 <span class="light">von</span> 135</h2>
                   </div>
                   <div class="sum-x__item__bt">
                     <h4>Diese Seiten sind älter als Wordpress 5.7.</h4>
@@ -133,7 +134,7 @@
                     /></a>
                   </div>
                   <div class="sum-x__item__tc">
-                    <h2>4 von 135</h2>
+                    <h2>4 <span class="light">von</span> 135</h2>
                   </div>
                   <div class="sum-x__item__bt">
                     <h4>Diese Seiten haben kein gültiges SSL Zertifikat</h4>
@@ -150,7 +151,7 @@
                     /></a>
                   </div>
                   <div class="sum-x__item__tc">
-                    <h2>56 von 135</h2>
+                    <h2>56 <span class="light">von</span> 135</h2>
                   </div>
                   <div class="sum-x__item__bt">
                     <h4>Diese Seiten haben eine veraltete PHP Version (7.3)</h4>
@@ -167,7 +168,7 @@
                     /></a>
                   </div>
                   <div class="sum-x__item__tc">
-                    <h2>100 von 135</h2>
+                    <h2>100 <span class="light">von</span> 135</h2>
                   </div>
                   <div class="sum-x__item__bt">
                     <h4>Haben einen Desktop-Speed unter 40 Punkte</h4>
@@ -176,6 +177,543 @@
                     >
                   </div>
                 </div>
+              </div>
+              <!-- sum-x-end -->
+
+              <div class="up-table-wrapper">
+                <div class="fil-title">
+                  <h4 class="h4-h">Alle Webseiten im Überblick</h4>
+                  <ul class="h4-ul">
+                    <li>
+                      <a href="#" class="h4-btn">
+                        <img src="assets/img/ellipse-plus.svg" alt="" />
+                        <span class="txt">Webseite hinzufügen</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="h4-btn">
+                        <img src="assets/img/filter.svg" alt="" />
+                        <span class="txt">Filter löschen</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="filter-box-op">
+                  <div class="op-filter op-filter--search disabled">
+                    <img
+                      src="assets/img/feather-search.svg"
+                      alt=""
+                      class="src-icon"
+                    />
+                    <input
+                      type="text"
+                      class="input"
+                      placeholder="Nach Webseite suchen"
+                    />
+                  </div>
+                  <div class="op-filter disabled">
+                    <select class="input select-input">
+                      <option>Desktop speed</option>
+                      <option>Desktop speed</option>
+                      <option>Desktop speed</option>
+                    </select>
+                  </div>
+                  <div class="op-filter disabled">
+                    <select class="input select-input">
+                      <option>Mobile speed</option>
+                      <option>Mobile speed</option>
+                      <option>Mobile speed</option>
+                    </select>
+                  </div>
+                  <div class="op-filter disabled">
+                    <select class="input select-input">
+                      <option>Wordpress Version</option>
+                      <option>Wordpress Version</option>
+                      <option>Wordpress Version</option>
+                    </select>
+                  </div>
+                  <div class="op-filter disabled">
+                    <select class="input select-input">
+                      <option>PHP Version</option>
+                      <option>PHP Version</option>
+                      <option>PHP Version</option>
+                    </select>
+                  </div>
+                  <div class="op-filter disabled">
+                    <select class="input select-input">
+                      <option>SSL</option>
+                      <option>SSL</option>
+                      <option>SSL</option>
+                    </select>
+                  </div>
+                  <div class="op-filter disabled ms-auto">
+                    <select class="input select-input">
+                      <option>10</option>
+                      <option>10</option>
+                      <option>10</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="up-table">
+                  <div class="up-table-row">
+                    <div class="up-table-td">
+                      <a href="https://www.max-mustermann.de" class="h4-btn">
+                        <img src="assets/img/globe.svg" alt="" />
+                        <span class="txt">www.max-mustermann.de</span>
+                        <img
+                          class="ms-2"
+                          src="assets/img/awesome-external-link-alt.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr green-theme">
+                        <img src="assets/img/monitor.svg" alt="" />
+                        <span class="txt">90/100</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr yl-theme">
+                        <img src="assets/img/mobile.svg" alt="" />
+                        <span class="txt">50/100</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/lock.svg" alt="" />
+                        <span class="txt">SSL</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/w.svg" alt="" />
+                        <span class="txt">5.73</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/php.svg" alt="" />
+                        <span class="txt">7.23</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/repeat.svg" alt="" />
+                        <span class="txt">12 Plugin Updates</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img
+                          src="assets/img/money-bill-wave-light.svg"
+                          alt=""
+                        />
+                        <span class="txt">Wartungsvertrag</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td ms-auto">
+                      <div class="h4-btn-bdr green-fill">
+                        <span class="txt">Details</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="up-table-row">
+                    <div class="up-table-td">
+                      <a href="https://www.max-mustermann.de" class="h4-btn">
+                        <img src="assets/img/globe.svg" alt="" />
+                        <span class="txt">www.max-mustermann.de</span>
+                        <img
+                          class="ms-2"
+                          src="assets/img/awesome-external-link-alt.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr green-theme">
+                        <img src="assets/img/monitor.svg" alt="" />
+                        <span class="txt">90/100</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr yl-theme">
+                        <img src="assets/img/mobile.svg" alt="" />
+                        <span class="txt">50/100</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/lock.svg" alt="" />
+                        <span class="txt">SSL</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/w.svg" alt="" />
+                        <span class="txt">5.73</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/php.svg" alt="" />
+                        <span class="txt">7.23</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/repeat.svg" alt="" />
+                        <span class="txt">12 Plugin Updates</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td ms-auto">
+                      <div class="h4-btn-bdr green-fill">
+                        <span class="txt">Details</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="up-table-row">
+                    <div class="up-table-td">
+                      <a href="https://www.max-mustermann.de" class="h4-btn">
+                        <img src="assets/img/globe.svg" alt="" />
+                        <span class="txt">www.max-mustermann.de</span>
+                        <img
+                          class="ms-2"
+                          src="assets/img/awesome-external-link-alt.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr green-theme">
+                        <img src="assets/img/monitor.svg" alt="" />
+                        <span class="txt">90/100</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr yl-theme">
+                        <img src="assets/img/mobile.svg" alt="" />
+                        <span class="txt">50/100</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/lock.svg" alt="" />
+                        <span class="txt">SSL</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/w.svg" alt="" />
+                        <span class="txt">5.73</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/php.svg" alt="" />
+                        <span class="txt">7.23</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/repeat.svg" alt="" />
+                        <span class="txt">12 Plugin Updates</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td ms-auto">
+                      <div class="h4-btn-bdr green-fill">
+                        <span class="txt">Details</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="up-table-row">
+                    <div class="up-table-td">
+                      <a href="https://www.max-mustermann.de" class="h4-btn">
+                        <img src="assets/img/globe.svg" alt="" />
+                        <span class="txt">www.max-mustermann.de</span>
+                        <img
+                          class="ms-2"
+                          src="assets/img/awesome-external-link-alt.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr green-theme">
+                        <img src="assets/img/monitor.svg" alt="" />
+                        <span class="txt">90/100</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr yl-theme">
+                        <img src="assets/img/mobile.svg" alt="" />
+                        <span class="txt">50/100</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/lock.svg" alt="" />
+                        <span class="txt">SSL</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/w.svg" alt="" />
+                        <span class="txt">5.73</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/php.svg" alt="" />
+                        <span class="txt">7.23</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/repeat.svg" alt="" />
+                        <span class="txt">12 Plugin Updates</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td ms-auto">
+                      <div class="h4-btn-bdr green-fill">
+                        <span class="txt">Details</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="up-table-row">
+                    <div class="up-table-td">
+                      <a href="https://www.max-mustermann.de" class="h4-btn">
+                        <img src="assets/img/globe.svg" alt="" />
+                        <span class="txt">www.max-mustermann.de</span>
+                        <img
+                          class="ms-2"
+                          src="assets/img/awesome-external-link-alt.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr green-theme">
+                        <img src="assets/img/monitor.svg" alt="" />
+                        <span class="txt">90/100</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr yl-theme">
+                        <img src="assets/img/mobile.svg" alt="" />
+                        <span class="txt">50/100</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/lock.svg" alt="" />
+                        <span class="txt">SSL</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/w.svg" alt="" />
+                        <span class="txt">5.73</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/php.svg" alt="" />
+                        <span class="txt">7.23</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/repeat.svg" alt="" />
+                        <span class="txt">12 Plugin Updates</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td ms-auto">
+                      <div class="h4-btn-bdr green-fill">
+                        <span class="txt">Details</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="up-table-row">
+                    <div class="up-table-td">
+                      <a href="https://www.max-mustermann.de" class="h4-btn">
+                        <img src="assets/img/globe.svg" alt="" />
+                        <span class="txt">www.max-mustermann.de</span>
+                        <img
+                          class="ms-2"
+                          src="assets/img/awesome-external-link-alt.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr green-theme">
+                        <img src="assets/img/monitor.svg" alt="" />
+                        <span class="txt">90/100</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr yl-theme">
+                        <img src="assets/img/mobile.svg" alt="" />
+                        <span class="txt">50/100</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/lock.svg" alt="" />
+                        <span class="txt">SSL</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/w.svg" alt="" />
+                        <span class="txt">5.73</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/php.svg" alt="" />
+                        <span class="txt">7.23</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/repeat.svg" alt="" />
+                        <span class="txt">12 Plugin Updates</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td ms-auto">
+                      <div class="h4-btn-bdr green-fill">
+                        <span class="txt">Details</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="up-table-row">
+                    <div class="up-table-td">
+                      <a href="https://www.max-mustermann.de" class="h4-btn">
+                        <img src="assets/img/globe.svg" alt="" />
+                        <span class="txt">www.max-mustermann.de</span>
+                        <img
+                          class="ms-2"
+                          src="assets/img/awesome-external-link-alt.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr green-theme">
+                        <img src="assets/img/monitor.svg" alt="" />
+                        <span class="txt">90/100</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr yl-theme">
+                        <img src="assets/img/mobile.svg" alt="" />
+                        <span class="txt">50/100</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/lock.svg" alt="" />
+                        <span class="txt">SSL</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/w.svg" alt="" />
+                        <span class="txt">5.73</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/php.svg" alt="" />
+                        <span class="txt">7.23</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/repeat.svg" alt="" />
+                        <span class="txt">12 Plugin Updates</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td ms-auto">
+                      <div class="h4-btn-bdr green-fill">
+                        <span class="txt">Details</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="up-table-row">
+                    <div class="up-table-td">
+                      <a href="https://www.max-mustermann.de" class="h4-btn">
+                        <img src="assets/img/globe.svg" alt="" />
+                        <span class="txt">www.max-mustermann.de</span>
+                        <img
+                          class="ms-2"
+                          src="assets/img/awesome-external-link-alt.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr green-theme">
+                        <img src="assets/img/monitor.svg" alt="" />
+                        <span class="txt">90/100</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr yl-theme">
+                        <img src="assets/img/mobile.svg" alt="" />
+                        <span class="txt">50/100</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/lock.svg" alt="" />
+                        <span class="txt">SSL</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/w.svg" alt="" />
+                        <span class="txt">5.73</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/php.svg" alt="" />
+                        <span class="txt">7.23</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td">
+                      <div class="h4-btn-bdr">
+                        <img src="assets/img/repeat.svg" alt="" />
+                        <span class="txt">12 Plugin Updates</span>
+                      </div>
+                    </div>
+                    <div class="up-table-td ms-auto">
+                      <div class="h4-btn-bdr green-fill">
+                        <span class="txt">Details</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex mt-4">
+              <div
+                class="pagination__wrap pagination-d2 d-flex align-items-center ms-auto"
+              >
+                <nav aria-label="">
+                  <ul class="pagination">
+                    <li class="page-item active" aria-current="page">
+                      <span class="page-link">1</span>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">2</a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </div>
           </div>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12.103" height="12.103" viewBox="0 0 12.103 12.103">
+  <g id="ellipse-plus" transform="translate(0.5 0.5)">
+    <path id="Path_1" data-name="Path 1" d="M14.1,8.552A5.552,5.552,0,1,1,8.552,3,5.552,5.552,0,0,1,14.1,8.552Z" transform="translate(-3 -3)" fill="none" stroke="#18364d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_2" data-name="Path 2" d="M18,12v4.441" transform="translate(-12.448 -8.669)" fill="none" stroke="#18364d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_3" data-name="Path 3" d="M12,18h4.441" transform="translate(-8.669 -12.448)" fill="none" stroke="#18364d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>
