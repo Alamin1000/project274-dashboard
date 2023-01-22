@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36.623" height="39.738" viewBox="0 0 36.623 39.738">
+  <g id="Group_14" data-name="Group 14" transform="translate(-45.965 -405.759)">
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="36.623" height="39.738" rx="1.276" transform="translate(45.965 405.759)" fill="#e8e8e8"/>
+    <path id="Rectangle_13" data-name="Rectangle 13" d="M1.274,0H35.349a1.274,1.274,0,0,1,1.274,1.274V4.5a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1.274A1.274,1.274,0,0,1,1.274,0Z" transform="translate(45.965 405.759)" fill="#304959"/>
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="0.732" cy="0.732" rx="0.732" ry="0.732" transform="translate(80.006 407.193)" fill="#f4f4f4"/>
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="0.732" cy="0.732" rx="0.732" ry="0.732" transform="translate(77.905 407.193)" fill="#f4f4f4"/>
+    <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="0.732" cy="0.732" rx="0.732" ry="0.732" transform="translate(75.908 407.193)" fill="#f4f4f4"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="14.012" height="14.649" rx="1.276" transform="translate(48.979 412.94)" fill="#e3d400" opacity="0.6"/>
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="14.012" height="5.912" rx="1.276" transform="translate(65.872 412.872)" fill="#129bdb" opacity="0.6"/>
+    <rect id="Rectangle_16" data-name="Rectangle 16" width="14.012" height="5.912" rx="1.276" transform="translate(65.872 421.677)" fill="#fca01f" opacity="0.6"/>
+    <rect id="Rectangle_17" data-name="Rectangle 17" width="30.905" height="12.375" rx="1.276" transform="translate(48.979 430.362)" fill="#bababa"/>
+  </g>
+</svg>

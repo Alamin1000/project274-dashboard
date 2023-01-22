@@ -1,0 +1,342 @@
+@media (max-width: 1799px) {
+    .data-selection-column-wrap {
+        padding: 100px 40px 50px;
+        gap: 40px;
+    }
+
+    .data-selection-table-wrap {
+        gap: 30px;
+        padding: 70px 70px;
+    }
+}
+
+
+@media (max-width: 1599px) {
+    .setting-wrap {
+        grid-gap: 35px;
+    }
+    .setting {
+        gap: 30px;
+    }
+
+    .inner-header h2 {
+        font-size: 22px;
+    }
+    .inner-header__buttons .button {
+        padding: 12px 37px 12px;
+        font-size: 17px;
+    }
+    .inner-header__input-wrap input[type="text"], .inner-header__input-wrap select {
+        padding: 0 20px;
+        font-size: 18px;
+    }
+    .inner-header {
+        padding: 16px 24px;
+        margin: 59px 30px 0;
+        gap: 26px;
+    }
+
+    .selection-chart h3 {
+        font-size: 18px;
+        padding: 0 0 0 28px;
+    }
+    .selection-chart__single-buttons .button {
+        height: 50px;
+        font-size: 16px;
+        min-width: 220px;
+    }
+    .selection-chart__info-link {
+        font-size: 13px;
+        gap: 4px;
+    }
+    .selection-chart__single {
+        margin-bottom: 10px;
+        gap: 20px;
+    }
+    .selection-chart {
+        margin: 59px 70px 0;
+    }
+
+    .red-message p {
+        font-size: 16px;
+    }
+
+    .select-box1 label {
+        font-size: 16px;
+    }
+    .checkbox-model {
+        height: 26px;
+        width: 26px;
+    }
+    .select-box1__select label {
+        gap: 15px;
+    }
+    .select-box1__inner {
+        padding: 18px 15px;
+    }
+    .data-selection-column-wrap {
+        padding: 70px 30px 50px;
+        gap: 30px;
+    }
+    .select-box1__input-single input {
+        height: 50px;
+        padding: 0 16px;
+        font-size: 17px;
+    }
+    .select-box1__buttons .button {
+        padding: 11px 25px 11px;
+        font-size: 17px;
+    }
+    .select-box1__buttons {
+        padding: 50px 0 0;
+        gap: 15px;
+    }
+    .select-box1__input-single {
+        padding: 15px 40px 0 43px;
+        gap: 15px;
+    }
+    .select-box1 .additional-button {
+        right: 13px;
+    }
+
+    .select-data-table__head h3 {
+        font-size: 22px;
+        gap: 10px;
+    }
+    .select-data-table__head .short-link {
+        font-size: 16px;
+    }
+
+    .select-data-table__inner table thead td {
+        padding: 5px 0;
+        font-size: 16px;
+    }
+    .select-data-table__inner table tbody td {
+        height: 45px;
+        padding: 0px 18px;
+        font-size: 16px;
+    }
+
+    .select-data-table__inner table .data5 {
+        width: 55px;
+        border-left-width: 7px;
+    }
+
+    .select-data-table__inner table td {
+        border-left-width: 15px;
+    }
+    .select-data-table__inner table {
+        border-spacing: 0 9px;
+        width: calc(100% + 15px);
+        margin: 0px 0 0 -15px;
+    }
+    .select-data-table {
+        padding: 23px 28px;
+        border-radius: 7px;
+    }
+} 
+
+@media (max-width: 1500px) {  
+    .nav__wrapper {
+        width: 70px;
+        padding: 10px 14px;
+    } 
+    .nav__top ul li a img {
+        max-width: 24px;
+    }
+    .nav__top ul li {
+        margin: 11px 0px;
+    }
+    .nav__bottom ul li a img {
+        max-width: 24px;
+    }
+    .nav__bottom > ul > li {
+        margin: 9px 0px;
+    }
+    .version {
+        font-size: 9px;
+        line-height: 1;
+    }
+    .installation__content-images img {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+    }
+    .installation__content-images {
+        width: 41%;
+    }
+    .installation-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 27px 24px;
+    }
+
+    .installation-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px 20px;
+        height: 60vh;
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }
+    .installation-grid-::-webkit-scrollbar{
+        display: none;
+    }
+    .content__body {
+        margin-left: 100px;
+    }
+    .nav__top ul li > a::after {
+        right: calc(100% + 12px);
+    }
+    .body__header-mb {
+        margin-bottom: 20px;
+    }
+    .pagination__area {
+        background: #fff;
+        padding: 10px 63px !important;
+    }
+
+    /* page-2 */
+    .folder-icon {
+        max-width: 172px;
+        width: 100%;
+        height: auto;
+    }
+    .files__icons-top {
+        width: 47px;
+    }
+    .files__grid {
+        grid-gap: 0px 52px;
+    }
+    .files__right-padding {
+        padding: 15px 18px 18px 15px;
+    }
+    .search__area input {
+        height: 37px;
+    }
+    .search__area {
+        margin-bottom: 12px;
+    }
+    .side__widget-title {
+        margin-bottom: 15px;
+    }
+    .tag__single {
+        padding: 5px 18px;
+        font-size: 12px;
+    }
+    .tag__add a {
+        font-size: 14px;
+    }
+    .filter__option-sigle select.form-select {
+        height: 32px;
+        font-size: 14px;
+    }
+    .files__wrapper {
+        min-height: 76vh;
+    }
+    .filter__option-btn button {
+        height: 36px;
+        font-size: 14px;
+    }
+    .filter__option-btn {
+        padding: 0px 15px;
+        padding-bottom: 15px;
+    }
+    .files__folder-grid {
+        grid-gap: 0px 50px;
+    }
+    .files__single-text {
+        font-size: 13px;
+    }
+    .connect__item-img img {
+        max-width: 55px;
+        width: 100%;
+    }
+    .connect__wrapp {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 22px 22px;
+        overflow-y: scroll;
+        height: 68vh;
+        scrollbar-width: none;
+    }
+    .connect__wrapp::-webkit-scrollbar{
+        display: none;
+    }
+
+    .connect__item-doc {
+        padding-right: 0px;
+    }
+
+    /* popup */
+    .custom__popup .modal-dialog .modal-content {
+        border-radius: 40px;
+        padding: 35px 44px;
+    }
+    .custom__popup .modal-dialog {
+        max-width: 508px;
+    }
+    .custom__popup-header h2 {
+        margin-bottom: 10px;
+        font-size: 26px;
+    }
+    .custom__popu-input input {
+        height: 50px;
+    }
+    .custom__popup-form button.site-btn {
+        height: 50px;
+    }
+
+    .shape-angle {
+        top: 8px;
+    }
+
+
+}
+
+@media (max-width: 1400px) {  
+
+    .setting {
+        padding: 30px 0px;
+    }
+    
+    .inner-header {
+        margin: 50px 0px 0;
+    }
+    .selection-chart {
+        margin: 50px 30px 0;
+    }
+
+
+    .select-box1__input-single {
+        padding-right: 20px;
+    }
+    .select-box1 .additional-button {
+        right: -5px;
+    }
+    .data-selection-column-wrap {
+        padding: 70px 0px 50px;
+    }
+
+    .data-selection-table-wrap {
+        padding: 60px 0px;
+    }
+}
+
+@media (max-width: 1300px) { 
+    .side__widget-title h6 {
+        font-size: 14px;
+    }
+    .files__arrow-link a {
+        height: 22px;
+        width: 22px;
+    }
+
+
+
+}
+
+
+
+
+
+

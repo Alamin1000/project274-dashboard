@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78.843" height="78.843" viewBox="0 0 78.843 78.843">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.003" y1="0.5" x2="1.001" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e96f0b"/>
+      <stop offset="1" stop-color="#f37901"/>
+    </linearGradient>
+  </defs>
+  <g id="google_analytics-official" transform="translate(-91.292 29)">
+    <g id="Group_20" data-name="Group 20" transform="translate(91.292 -29)">
+      <path id="Path_35" data-name="Path 35" d="M126.958,64.646H97.777a6.482,6.482,0,0,1-6.485-6.485V44.167a6.482,6.482,0,0,1,6.485-6.485h18.431V17.2a6.482,6.482,0,0,1,6.485-6.485h20.478V64.475H126.958Z" transform="translate(-91.292 14.196)" fill="#ffc517" fill-rule="evenodd"/>
+      <path id="Path_36" data-name="Path 36" d="M194.474,49.843H174V-22.515A6.482,6.482,0,0,1,180.481-29h13.994a6.482,6.482,0,0,1,6.485,6.485V43.358a6.712,6.712,0,0,1-6.485,6.485Z" transform="translate(-122.117 29)" fill="#f57e02" fill-rule="evenodd"/>
+      <path id="Path_37" data-name="Path 37" d="M307.72,90.351V110.83a6.485,6.485,0,0,1-6.485,6.485H280.757V63.388Z" transform="translate(-229.048 -38.472)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
