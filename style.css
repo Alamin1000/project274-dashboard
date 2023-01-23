@@ -1925,7 +1925,7 @@ textarea:focus{
     color: #18364D;
 }
 .sum-x__item__top {
-	margin: 0 0 3px;
+	margin: 0 0 5px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -1937,7 +1937,7 @@ textarea:focus{
     color: #18364D;
 }
 .sum-x__item__top .set {
-
+    margin-top: -2px;
 }
 .sum-x__item__tc {
 
