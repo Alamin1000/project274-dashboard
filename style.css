@@ -2282,8 +2282,16 @@ textarea:focus{
     height: 110px;
 }
 .up-msg__form .submit {
-    padding: 10px 24px;
+    padding: 11px 24px 10px;
     background: #18364D;
+    transition: 0.3s;
+}
+.up-msg__form .submit img {
+    margin-top: -2px;
+}
+.up-msg__form .submit:hover {
+    color: #fff;
+    background: #226294;
 }
 
 .up-logs__tm___wrap {
