@@ -1925,9 +1925,10 @@ textarea:focus{
     color: #18364D;
 }
 .sum-x__item__top {
-    margin: 0 0 3px;
-    display: flex;
-    justify-content: space-between;
+	margin: 0 0 3px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .sum-x__item__top h4 {
     font-size: 16px;
@@ -2015,6 +2016,9 @@ textarea:focus{
     display: flex;
     align-items: center;
 }
+.h4-btn img {
+    margin-bottom: 1px;
+}
 
 .filter-box-op {
     margin-bottom: 17px;
@@ -2084,6 +2088,7 @@ textarea:focus{
     align-items: center;
     font-size: 14px;
     font-weight: 300;
+    transition: 0.3s;
 }
 .h4-btn-bdr.h4-btn-bdr-dm {
     border-color: #DDDDDD;
@@ -2113,6 +2118,9 @@ textarea:focus{
     border-color: transparent;
     background: #AAD631;
     color: #fff;
+}
+.h4-btn-bdr.green-fill:hover {
+    background: #9acc11;
 }
 /* ---sum-x-section-end--- */
 
