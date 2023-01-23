@@ -185,7 +185,12 @@
                   <h4 class="h4-h">Alle Webseiten im Überblick</h4>
                   <ul class="h4-ul">
                     <li>
-                      <a href="#" class="h4-btn">
+                      <a
+                        href="#"
+                        class="h4-btn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#create-website-modal"
+                      >
                         <img src="assets/img/ellipse-plus.svg" alt="" />
                         <span class="txt">Webseite hinzufügen</span>
                       </a>
@@ -722,6 +727,64 @@
         <!-- content-body -->
       </div>
     </div>
+
+    <!-- popup -->
+    <div
+      class="modal wc-popup fade"
+      id="create-website-modal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="wc-popup-content">
+            <div class="wc-popup-content__title">
+              <h4>Neue Webseite hinzufügen</h4>
+              <h6><a href="#" data-bs-dismiss="modal">Schließen</a></h6>
+            </div>
+            <div class="wc-pop-form">
+              <div class="wc-pop-form__main">
+                <div class="single-input-x single-input-x--xl">
+                  <div class="input-x-outer">
+                    <input
+                      type="text"
+                      class="input-x"
+                      placeholder="www.musterseite.at"
+                    />
+                  </div>
+                </div>
+                <div class="single-input-x single-input-x--xl">
+                  <div class="input-x-outer">
+                    <select class="input-x input-x-select">
+                      <option>Wartungsvertrag vorhanden?</option>
+                      <option>Wartungsvertrag vorhanden?</option>
+                      <option>Wartungsvertrag vorhanden?</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="single-input-x single-input-x--xl">
+                  <div class="input-x-outer">
+                    <input
+                      type="text"
+                      class="input-x"
+                      placeholder="Dein Token "
+                    />
+                  </div>
+                </div>
+                <div class="wc-pop-form__bt-row">
+                  <p>Den Token findest du direkt in der Plugin-Übersicht</p>
+                  <a href="#" class="site-btn submit-btn green-bg">
+                    <img src="assets/img/btn-plus.svg" alt="" />
+                    <span class="txt">Jetzt hinzufügen</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- popup -->
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/main.js"></script>

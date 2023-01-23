@@ -2327,6 +2327,16 @@ textarea:focus{
     border-radius: 20px;
     padding: 30px 43px 43px;
     background: #fff;
+    position: relative;
+}
+.alarm-popup .modal-content .fl-btn {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(24, 54, 77, 0.51);
+    position: absolute;
+    right: 20px;
+    top: 15px;
 }
 .alarm-popup__content {
     grid-gap: 28px;
@@ -2401,6 +2411,7 @@ textarea:focus{
     font-size: 16px;
     font-weight: 300;
     line-height: 1.5;
+    color: #18364D;
 }
 .input-x.input-x-select {
 
@@ -2438,7 +2449,75 @@ textarea:focus{
     line-height: 1.5;
     height: 410px;
 }
+
+.single-input-x--xl .input-x {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 14px 35px;
+    border-radius: 70px;
+    min-height: 58px;
+}
 /* ---alarm-popup---end */
+
+
+/* ---wc-popup--- */
+.wc-popup {
+
+}
+.wc-popup .modal-dialog {
+    max-width: 679px;
+}
+.wc-popup .modal-content {
+    border-radius: 20px;
+    padding: 35px 43px 43px;
+    background: #fff;
+}
+.wc-popup__content {
+
+}
+.wc-popup-content__title {
+    margin: 0 0 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wc-popup-content__title h4 {
+    margin: 0;
+    color: #18364D;
+    font-weight: 700;
+    font-weight: 20px;
+}
+.wc-popup-content__title h6 a {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(24, 54, 77, 0.51);
+}
+
+.wc-pop-form {
+
+}
+.wc-pop-form__main {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.wc-pop-form__bt-row {
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.wc-pop-form__bt-row p {
+    font-size: 11px;
+    font-weight: 300;
+}
+.wc-pop-form .submit-btn {
+    font-size: 17px;
+    font-weight: 700;
+    padding: 15px 30px;
+    margin-left: auto;
+}
+/* ---wc-popup---end */
 
 
 
